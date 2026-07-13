@@ -14,7 +14,7 @@ export default function HeroBurger () {
                         <br className="hidden md:block" />
                         Burger
                     </h1>
-                    <p className="font-body text-preto text-xl mt-2 mb-6 text-balance">Da rua pro seu prato. A receita que a concorrência tentou
+                    <p className="font-body text-preto text-sm sm:text-xl mt-2 mb-6 text-balance">Da rua pro seu prato. A receita que a concorrência tentou
                         descobrir e não conseguiu.
                     </p>
                     <Button>SAIBA MAIS</Button>

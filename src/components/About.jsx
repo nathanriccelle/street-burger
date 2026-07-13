@@ -8,7 +8,7 @@ export default function About() {
             </div>
             <div className="container mx-auto py-6 sm:py-12 flex flex-col items-center">
                 <h2 className="font-title text-vermelho text-h2" >A turma do sabor</h2>
-                <p className="text-center font-body mb-5 sm:mb-10 text-balance sm:text-base">Aqui não tem frescura nem história comprida. 
+                <p className="text-center px-4 sm:px-8 font-body mb-5 sm:mb-10 text-balance sm:text-base">Aqui não tem frescura nem história comprida. 
                     O Street Burguer nasceu na calçada, 
                     foi criado na chapa e virou o rei do pedaço antes 
                     que alguém percebesse. Cada blend é montado com 
