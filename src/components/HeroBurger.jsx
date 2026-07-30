@@ -19,7 +19,7 @@ export default function HeroBurger () {
                     <Button>SAIBA MAIS</Button>
                 </div>
                 <div className="">
-                    <div className="w-full flex justify-center sm:justify-end" data-aos="fade-down-left">
+                    <div data-aos="fade-left" className="w-full flex justify-center sm:justify-end">
                         <img className="w-full h-auto lg:w-[90%]" src="/images/BattleBurger.avif" alt="burger"/>
                     </div>
                 </div>
