@@ -6,13 +6,13 @@ export default function Extras() {
       <div className="container mx-auto px-6 max-w-5xl">
         
         <div className="flex items-center justify-center gap-6 mb-10 md:mb-16">
-          <div className="h-1 md:h-2 bg-vermelho grow max-w-20 md:max-w-50"></div>
+          <div data-aos="flip-left" className="h-1 md:h-2 bg-vermelho grow max-w-20 md:max-w-50"></div>
           
           <h2 className="font-title text-vermelho text-h2 tracking-wider text-center">
             Não acabou ainda.
           </h2>
           
-          <div className="h-1 md:h-2 bg-vermelho grow max-w-20 md:max-w-50"></div>
+          <div data-aos="flip-left" className="h-1 md:h-2 bg-vermelho grow max-w-20 md:max-w-50"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-20">

@@ -8,7 +8,7 @@ export default function Menu() {
             <div className="container mx-auto px-6">
 
                 <div className="flex flex-col items-center mb-6 md:mb-12">
-                    <h2 className="font-title text-h2 underline underline-offset-12 decoration-8 sm:decoration-12 decoration-laranja">
+                    <h2 data-aos="flip-left" className="font-title text-h2 underline underline-offset-12 decoration-8 sm:decoration-12 decoration-laranja">
                         Menu Brutal
                     </h2>
                 </div>

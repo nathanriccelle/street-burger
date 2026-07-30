@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Button from "./ui/Button";
 
 export default function HeroBurger () {
@@ -9,7 +8,7 @@ export default function HeroBurger () {
             <div className="container mx-auto px-6 py-6 md:py-12 flex flex-col-reverse text-center md:text-start md:flex-row items-center">
 
                 <div>
-                    <h1 className="font-title text-h2 mt-4 text-vermelho leading-none">
+                    <h1 className="font-title text-h1 mt-4 text-vermelho leading-none" >
                         Street{' '}
                         <br className="hidden md:block" />
                         Burger
@@ -20,7 +19,7 @@ export default function HeroBurger () {
                     <Button>SAIBA MAIS</Button>
                 </div>
                 <div className="">
-                    <div className="w-full flex justify-center sm:justify-end">
+                    <div className="w-full flex justify-center sm:justify-end" data-aos="fade-down-left">
                         <img className="w-full h-auto lg:w-[90%]" src="/images/BattleBurger.avif" alt="burger"/>
                     </div>
                 </div>

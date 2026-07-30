@@ -5,7 +5,7 @@ export default function Combo() {
         <section  className="bg-preto py-6 sm:py-12">
             <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
 
-        <div className="w-full md:w-4/5 flex justify-center">
+        <div data-aos="fade-down-right" className="w-full md:w-4/5 flex justify-center">
 
           <img 
             src="/images/BattleBurger2.avif" 

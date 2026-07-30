@@ -10,7 +10,7 @@ export default function Delivery() {
                 className="w-64 md:w-80 h-auto mb-8 md:mb-12"
                 />
                 
-                <h3 className="font-title text-creme text-h3 text-center leading-tight">
+                <h3 data-aos="fade-right" className="font-title text-creme text-h3 text-center leading-tight">
                 Não é lanche.<br />É missão.
                 </h3>
                 
@@ -25,10 +25,10 @@ export default function Delivery() {
                 />
                 
                 <div className="flex flex-col items-center">
-                <h3 className="font-title text-preto text-h3 text-center mb-4 tracking-wide">
+                <h3 data-aos="fade-left" className="font-title text-preto text-h3 text-center mb-4 tracking-wide">
                     Cada pedido, uma vitória.
                 </h3>
-                <p className="font-body text-balance text-preto text-center max-w-md leading-snug">
+                <p data-aos="fade-left" className="font-body text-balance text-preto text-center max-w-md leading-snug">
                     Aqui não tem pedido ruim. Só combinações que ainda não foram testadas. E um time que leva cada burguer a sério demais pra deixar escapar um errado.
                 </p>
                 </div>
