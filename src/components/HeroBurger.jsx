@@ -4,7 +4,7 @@ import Button from "./ui/Button";
 
 export default function HeroBurger () {
     return (
-        <section>
+        <section className="overflow-x-hidden">
             <div className="container mx-auto px-6 py-6 md:py-12 flex flex-col-reverse text-center md:text-start md:flex-row items-center">
 
                 <div>

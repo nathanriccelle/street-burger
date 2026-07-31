@@ -2,7 +2,7 @@ import { bebidas, sobremesas } from '@/data/menuData'
 
 export default function Extras() {
     return (
-        <section className="py-6 md:py-12">
+        <section className="py-6 md:py-12 overflow-x-hidden">
       <div className="container mx-auto px-6 max-w-5xl">
         
         <div className="flex items-center justify-center gap-6 mb-10 md:mb-16">

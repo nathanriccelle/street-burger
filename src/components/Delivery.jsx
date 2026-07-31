@@ -1,6 +1,6 @@
 export default function Delivery() {
     return (
-        <section id="entrega" className="w-full flex flex-col md:flex-row border-y-4 border-preto">
+        <section id="entrega" className="w-full flex flex-col md:flex-row border-y-4 border-preto overflow-x-hidden">
       
             <div className="w-full md:w-1/2 bg-vermelho flex flex-col items-center justify-center p-12 md:p-24 border-b-4 md:border-b-0 md:border-r-4 border-preto">
                 
