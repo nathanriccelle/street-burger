@@ -16,9 +16,9 @@ export default function Header() {
   return (
       <header className='border-b-4 border-preto relative'>
         <div className='container mx-auto px-6 py-4 flex items-center justify-between'>
-          <span className="text-vermelho font-title text-4xl">
-            Street Burger
-          </span>
+          <Link href="/">
+            <img src="/icon/logo.svg" alt="Street Burger" className="w-28 h-auto" />
+          </Link>
 
           <Button
             onClick={alternarMenu}

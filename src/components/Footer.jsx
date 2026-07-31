@@ -7,6 +7,10 @@ export default function Footer() {
     return (
         <footer className="bg-preto py-10 md:py-14">
             <div className="container mx-auto px-6 flex flex-col items-center gap-6 md:gap-8">
+
+                <Link href="/">
+                    <img src="/icon/logo.svg" alt="Street Burger" className="w-28 h-auto" />
+                </Link>
                 
                 <nav>
                 <ul className="flex items-center justify-center gap-8 md:gap-12 font-title text-laranja text-lg md:text-xl tracking-widest">
